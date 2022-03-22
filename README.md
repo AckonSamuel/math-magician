@@ -12,7 +12,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ```
 git clone https://github.com/AckonSamuel/math-magician.git
 ```
-
+**step2** build the project:
+```
+npm start
+```
 ## Available Scripts
 
 In the project directory, you can run:
