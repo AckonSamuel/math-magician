@@ -10,9 +10,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 **step1** cloning the project:
 ```
-git clone https://github.com/ZahraArshia/math-magicians.git
+git clone https://github.com/AckonSamuel/math-magician.git
 ```
-
+**step2** build the project:
+```
+npm start
+```
 ## Available Scripts
 
 In the project directory, you can run:
@@ -43,3 +46,16 @@ Your app is ready to be deployed!
 - GitHub: [@githubhandle](https://github.com/AckonSamuel)
 - Twitter: [@twitterhandle](https://twitter.com/AckonSamuel2)
 
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## License
+
+This project is [MIT](./MIT.md) licensed.
