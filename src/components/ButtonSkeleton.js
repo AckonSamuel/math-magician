@@ -10,7 +10,7 @@ class Button extends Component {
   render() {
     const { buttons } = this.props;
     return (
-      <div className={buttons.lenght <= 5 ? 'operators' : 'digits'}>
+      <div className={buttons.length < 6 ? 'operators' : 'digits'}>
         { buttons.map((item) => <button type="button" key={item}>{ item }</button>) }
       </div>
     );

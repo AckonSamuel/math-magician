@@ -12,13 +12,13 @@ class Calculator extends Component {
 
   render() {
     return (
-      <ul className="calc-container">
-        <li className="calc-surface">0</li>
-        <li className="calc-board">
+      <div className="calc-container">
+        <div className="calc-input">0</div>
+        <div className="calc-keys">
           <Button buttons={digits} />
-        </li>
-        <Button buttons={operators} />
-      </ul>
+          <Button buttons={operators} />
+        </div>
+      </div>
     );
   }
 }
