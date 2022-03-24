@@ -23,4 +23,4 @@ class Calculator extends Component {
   }
 }
 
-export default Calculator;
+export default { Calculator, operators, digits };
