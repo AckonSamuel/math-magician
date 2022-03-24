@@ -1,7 +1,7 @@
 # Math Magicians
 This branch is the first step of the Math Magicians application. In this branch the environment and tools needed to develop a React application are setted up. In the following stepss, the actual application will be developed.
 
-![image](https://hackernoon.com/images/1*KBGdMaU_emZX4XR1AvkD4A.gif)
+![image](Screenshot%202022-03-24%20160503.png)
 
 ## Built With
 - React
