@@ -22,14 +22,14 @@ const Calculator = () => {
 
   return (
     <div className="calc-container">
-      <div className="calc-input">{next || total || '0'}</div>
+      <div className="calc-input">{obj.next || obj.total || '0'}</div>
       <div className="calc-keys">
         <div className="digits">
-          {digits.map((btn) => <button onClick={() => this.btnClick(btn)} type="button" key={btn}>{btn}</button>)}
+          {digits.map((btn) => <button onClick={() => btnClick(btn)} type="button" key={btn}>{btn}</button>)}
         </div>
         <div className="operators">
           {operators.map((btn) => (
-            <button onClick={() => this.btnClick(btn)} type="button" key={btn}>
+            <button onClick={() => btnClick(btn)} type="button" key={btn}>
               {btn}
             </button>
           ))}
