@@ -11,19 +11,26 @@ const Calculator = () => {
     operation: '',
   });
 
-  btnClick = (btn) => {
-    this.setState((state) => calculate(
-      {
-        next: state.next,
-        total: state.total,
-        operation: state.operation,
-      },
-      btn,
-    ));
-  }
+  // btnClick = (btn) => {
+  //   this.setState((state) => calculate(
+  //     {
+  //       next: state.next,
+  //       total: state.total,
+  //       operation: state.operation,
+  //     },
+  //     btn,
+  //   ));
+  // }
 
-  render() {
-    const { total, next } = this.state;
+  const btnClick = (btn) => {
+    const { total, next, operation } = calculate(obj, btn);
+    if(next === null && total === null){
+      calcObj({ next, total: '', operation });
+    } else {
+      calcObj({ next, total, operation });
+    }
+  };
+
     return (
       <div className="calc-container">
         <div className="calc-input">{next || total || '0'}</div>
@@ -42,6 +49,5 @@ const Calculator = () => {
       </div>
     );
   }
-}
 
 export default Calculator;
