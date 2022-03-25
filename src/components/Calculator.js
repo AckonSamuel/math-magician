@@ -1,18 +1,15 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
 const operators = ['÷', 'x', '-', '+', '='];
 const digits = ['AC', '+/-', '%', '7', '8', '9', '4', '5', '6', '1', '2', '3', '0', '.'];
 
-class Calculator extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      next: '',
-      total: '',
-      operation: '',
-    };
-  }
+const Calculator = () => {
+  const [ obj, calcObj ] = useState({
+    next: '',
+    total: '',
+    operation: '',
+  });
 
   btnClick = (btn) => {
     this.setState((state) => calculate(
