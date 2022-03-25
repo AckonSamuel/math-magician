@@ -12,7 +12,22 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ```
 git clone https://github.com/AckonSamuel/math-magician.git
 ```
-**step2** build the project:
+**step2** cd into the math-magician directory:
+```
+cd <Relative path>/math-magician
+```
+
+**step3** install dependencies:
+```
+npm i
+```
+
+**step4** build the project:
+```
+npm run build
+```
+
+**step2** deploy project to localhost://3000:
 ```
 npm start
 ```
