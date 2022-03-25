@@ -11,17 +11,6 @@ const Calculator = () => {
     operation: '',
   });
 
-  // btnClick = (btn) => {
-  //   this.setState((state) => calculate(
-  //     {
-  //       next: state.next,
-  //       total: state.total,
-  //       operation: state.operation,
-  //     },
-  //     btn,
-  //   ));
-  // }
-
   const btnClick = (btn) => {
     const { total, next, operation } = calculate(obj, btn);
     if (next === null && total === null) {
