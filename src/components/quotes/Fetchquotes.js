@@ -26,7 +26,7 @@ const Integerfact = () => {
   return (
     <div className="integerfact">
       <h2>Magic Number fact</h2>
-      <p>{posts.value}</p>
+      <p>{posts.text}</p>
       <button type="button" onClick={fetchPost}> Get number fact </button>
     </div>
   );

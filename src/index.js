@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Homepage from './components/homepage/Homepage';
-import Integerfact from './components/quotes/Quotes';
+import Integerfact from './components/quotes/Fetchquotes';
 
 ReactDOM.render(
   <StrictMode>
