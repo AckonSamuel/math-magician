@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Homepage from './components/homepage/Homepage';
+import Integerinput from './components/quotes/Integerinput';
 
 ReactDOM.render(
   <StrictMode>
@@ -12,7 +13,7 @@ ReactDOM.render(
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/calculator" element={<App />} />
-        {/* <Route path="/quotes" element={<Integerfact />} /> */}
+        <Route path="/quotes" element={<Integerinput />} />
       </Routes>
     </Router>
   </StrictMode>,
