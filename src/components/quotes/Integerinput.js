@@ -12,7 +12,7 @@ const Integerinput = () => {
         value={integer}
         onChange={(e) => setInteger(e.target.value)}
       />
-      <Integerfact  
+      <Integerfact vlad={integer} />
     </div>
   );
 };
