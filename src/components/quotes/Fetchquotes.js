@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Integerinput from './Integerinput';
 
-const Integerfact = () => {
+const Integerfact = (vlad) => {
   const [posts, setPosts] = useState([]);
 
   const options = {
     method: 'GET',
-    url: 'https://numbersapi.p.rapidapi.com/1729/math',
+    url: `https://numbersapi.p.rapidapi.com/${vlad}/math`,
     params: { fragment: 'true', json: 'true' },
     headers: {
       'X-RapidAPI-Host': 'numbersapi.p.rapidapi.com',
