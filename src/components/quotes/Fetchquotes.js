@@ -32,6 +32,10 @@ const Integerfact = ({ vlad }) => {
   );
 };
 
+Integerfact.propTypes = {
+  vlad: PropTypes.number.isRequired,
+};
+
 export default Integerfact;
 // const options = {
 //   method: 'GET',
