@@ -27,7 +27,12 @@ const Homepage = () => (
     </p>
 
     <p className="reference">
-        <a href="http://"
+      Reference:
+      <a href="https://www.britannica.com/summary/mathematics">
+        Britannica
+      </a>
     </p>
   </div>
 );
+
+export default Homepage;
