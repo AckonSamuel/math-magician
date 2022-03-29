@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import Integerinput from './Integerinput';
+import PropTypes from 'propTypes';
 
-const Integerfact = (vlad) => {
+const Integerfact = ({ vlad }) => {
   const [posts, setPosts] = useState([]);
 
   const options = {
@@ -25,9 +25,7 @@ const Integerfact = (vlad) => {
     fetchPost();
   }, []);
   return (
-    <div className="integerfact">
-      <h2>Magic Number fact</h2>
-      <Integerinput />
+    <div>
       <p>{posts.text}</p>
       <button type="button" onClick={fetchPost}> Get number fact </button>
     </div>
