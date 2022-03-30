@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: rgb(26, 25, 25);
+}
+
 .calc-container {
   margin: 100px auto;
   display: flex;
@@ -32,6 +36,11 @@
 .digits button {
   height: 4.5rem;
   font-size: 1.5rem;
+  background-color: rgb(136, 136, 136);
+  cursor: pointer;
+}
+.digits button:hover {
+  background-color: #ccc
 }
 
 .operators {
@@ -44,6 +53,11 @@
   background-color: orange;
   border: 1px solid #aaa;
   font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.operators button:hover {
+  background-color: rgb(225, 173, 76);
 }
 
 .digits button:nth-last-child(2) {
