@@ -39,14 +39,6 @@ body {
   background-color: rgb(136, 136, 136);
   cursor: pointer;
 }
-.digits button:hover {
-  background-color: #ccc
-}
-
-.operators {
-  display: grid;
-  grid-template-rows: auto auto auto auto;
-}
 
 .operators button {
   margin: 1px;
@@ -54,6 +46,15 @@ body {
   border: 1px solid #aaa;
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+.digits button:hover {
+  background-color: #ccc;
+}
+
+.operators {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
 }
 
 .operators button:hover {

@@ -18,7 +18,6 @@ const Integerfact = ({ vlad }) => {
 
   const fetchPost = async () => {
     const response = await axios.request(options);
-    console.log(response);
     setPosts(response.data);
   };
 
