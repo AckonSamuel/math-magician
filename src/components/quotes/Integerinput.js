@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Integerfact from './Fetchquotes';
+import './integerinput.css';
 
 const Integerinput = () => {
   const [integer, setInteger] = useState('');

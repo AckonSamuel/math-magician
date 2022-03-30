@@ -1,0 +1,25 @@
+.integerfact {
+    background: #000000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.integerfact input {
+    margin: 1em 2em;
+    padding: 0.5em 0.5em;
+    font-size: 1em;
+    caret-color: green;
+    background: rgb(51, 1, 51);
+    color: green;
+    width: 50%;
+}
+
+.integerfact h2 {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
