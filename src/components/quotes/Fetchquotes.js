@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import PropTypes from 'propTypes';
+import PropTypes from 'prop-types';
 
 const Integerfact = ({ vlad }) => {
   const [posts, setPosts] = useState([]);
@@ -33,7 +33,7 @@ const Integerfact = ({ vlad }) => {
 };
 
 Integerfact.propTypes = {
-  vlad: PropTypes.number.isRequired,
+  vlad: PropTypes.string.isRequired,
 };
 
 export default Integerfact;
