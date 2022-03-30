@@ -1,7 +1,8 @@
 import React from 'react';
+import './homepage.css';
 
 const Homepage = () => (
-  <div className="Introduction">
+  <div className="introduction">
     <h1 className="title">LEGEND</h1>
     <p>
       Mathematics, a branch of Science
