@@ -1,13 +1,24 @@
-import React from 'react';
+import React, { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Homepage from './components/homepage/Homepage';
+import Integerinput from './components/quotes/Integerinput';
+import Navbar from './components/navbar/Navbar';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <StrictMode>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/calculator" element={<App />} />
+        <Route path="/quotes" element={<Integerinput />} />
+      </Routes>
+    </Router>
+  </StrictMode>,
   document.getElementById('root'),
 );
 

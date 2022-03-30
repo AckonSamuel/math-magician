@@ -1,0 +1,29 @@
+.integerfact {
+  background: rgb(2, 2, 2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+  height: 100vh;
+  background-image: url('../../../dark-night-beautiful-sky-nl-2932x2932.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.integerfact input {
+  margin: 1em 2em;
+  padding: 0.5em 0.5em;
+  font-size: 1em;
+  caret-color: yellow;
+  background: #aaa;
+  color: rgb(0, 0, 0);
+  width: 50%;
+}
+
+.integerfact h2 {
+  color: #ccc;
+  font-weight: bold;
+  font-size: 2em;
+  margin-bottom: 1em;
+}

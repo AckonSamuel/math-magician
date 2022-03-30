@@ -4,39 +4,48 @@
   box-sizing: border-box;
 }
 
+body {
+  background: url('../shooting-stars.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .calc-container {
   margin: 100px auto;
   display: flex;
   flex-direction: column;
   width: 80%;
+  border: 2px solid orange;
 }
 
 .calc-input {
   text-align: end;
   padding: 30px;
-  background-color: rgb(241, 238, 238);
+  background-color: black;
   font-weight: bold;
   font-size: 1.5rem;
+  color: #aaa;
+  border-bottom: 1px solid orange;
 }
 
 .calc-keys {
   display: grid;
   grid-template-columns: 3fr 1fr;
+  background: black;
 }
 
 .digits {
   display: grid;
   grid-template-columns: auto auto auto;
+  background: black;
 }
 
 .digits button {
   height: 4.5rem;
   font-size: 1.5rem;
-}
-
-.operators {
-  display: grid;
-  grid-template-rows: auto auto auto auto;
+  background-color: rgb(136, 136, 136);
+  cursor: pointer;
 }
 
 .operators button {
@@ -44,8 +53,35 @@
   background-color: orange;
   border: 1px solid #aaa;
   font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.digits button:hover {
+  background-color: #ccc;
+}
+
+.operators {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+}
+
+.operators button:hover {
+  background-color: rgb(225, 173, 76);
 }
 
 .digits button:nth-last-child(2) {
   grid-column: span 2;
+}
+
+.root-calc {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 100%;
+}
+
+.root-calc h1 {
+  grid-column: 1 / 2;
+  color: rgb(233, 215, 215);
+  padding: 10rem 1rem;
 }

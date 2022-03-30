@@ -1,0 +1,22 @@
+.introduction {
+  background-color: rgb(24, 24, 24);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  padding: 5rem;
+  background-image: url('../../../cosmic-background-with-colorful-laser-lights-perfect-illustration-wallpapers_181624-32879.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.introduction .title {
+  color: orange;
+  margin: 1em;
+}
+
+.introduction p {
+  font-size: 1.5em;
+}
