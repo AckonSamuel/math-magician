@@ -10,8 +10,8 @@
 }
 
 .post button {
-  background: blue;
-  color: #ccc;
+  background: orange;
+  color: rgb(4, 5, 0);
   height: 2rem;
   font-size: 1rem;
   width: 100%;
@@ -19,11 +19,12 @@
 }
 
 .post button:hover {
-  background: darkblue;
+  background: yellow;
+  color: blue;
 }
 
 .post p {
-  color: green;
+  color: yellow;
   font-size: 1rem;
 }
 

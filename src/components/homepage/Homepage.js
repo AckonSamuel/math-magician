@@ -5,6 +5,10 @@ const Homepage = () => (
   <div className="introduction">
     <h1 className="title">LEGEND</h1>
     <p>
+      WELCOME TO MATH MAGICIANS!!
+      <br />
+      <br />
+      <br />
       Mathematics, a branch of Science
       that incorporates structure,
       order, and relation that has advanced from counting,

@@ -1,20 +1,23 @@
 .integerfact {
-  background: rgb(24, 24, 24);
-  height: 100vh;
+  background: rgb(2, 2, 2);
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 1em;
-  margin-top: 5em;
+  padding: 5rem;
+  height: 100vh;
+  background-image: url('../../../dark-night-beautiful-sky-nl-2932x2932.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .integerfact input {
   margin: 1em 2em;
   padding: 0.5em 0.5em;
   font-size: 1em;
-  caret-color: green;
-  background: rgb(22, 1, 51);
-  color: green;
+  caret-color: yellow;
+  background: #aaa;
+  color: rgb(0, 0, 0);
   width: 50%;
 }
 

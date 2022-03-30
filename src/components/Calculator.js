@@ -21,18 +21,26 @@ const Calculator = () => {
   };
 
   return (
-    <div className="calc-container">
-      <div className="calc-input">{obj.next || obj.total || '0'}</div>
-      <div className="calc-keys">
-        <div className="digits">
-          {digits.map((btn) => <button onClick={() => btnClick(btn)} type="button" key={btn}>{btn}</button>)}
-        </div>
-        <div className="operators">
-          {operators.map((btn) => (
-            <button onClick={() => btnClick(btn)} type="button" key={btn}>
-              {btn}
-            </button>
-          ))}
+    <div className="root-calc">
+      <h1>
+        Let us do some math
+        {' '}
+        <br />
+        {'>>>'}
+      </h1>
+      <div className="calc-container">
+        <div className="calc-input">{obj.next || obj.total || '0'}</div>
+        <div className="calc-keys">
+          <div className="digits">
+            {digits.map((btn) => <button onClick={() => btnClick(btn)} type="button" key={btn}>{btn}</button>)}
+          </div>
+          <div className="operators">
+            {operators.map((btn) => (
+              <button onClick={() => btnClick(btn)} type="button" key={btn}>
+                {btn}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
     </div>
