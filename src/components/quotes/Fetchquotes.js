@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import PropTypes from 'prop-types';
+import './fetchquotes.css';
 
 const Integerfact = ({ vlad }) => {
   const [posts, setPosts] = useState([]);
@@ -25,9 +26,11 @@ const Integerfact = ({ vlad }) => {
     fetchPost();
   }, []);
   return (
-    <div>
-      <p>{posts.text}</p>
+    <div className="post">
       <button type="button" onClick={fetchPost}> Get number fact </button>
+      <p>
+        {posts.text}
+      </p>
     </div>
   );
 };
