@@ -28,6 +28,7 @@ const Integerfact = ({ vlad }) => {
   return (
     <div className="post">
       <button type="button" onClick={fetchPost}> Get number fact </button>
+      <hr />
       <p>
         {posts.text}
       </p>

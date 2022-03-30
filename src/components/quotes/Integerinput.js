@@ -11,6 +11,7 @@ const Integerinput = () => {
         className="integerinput"
         type="number"
         value={integer}
+        placeholder="Enter magic number"
         onChange={(e) => setInteger(e.target.value)}
       />
       <Integerfact vlad={integer} />
