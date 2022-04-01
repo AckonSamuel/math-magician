@@ -8,7 +8,7 @@ describe('operate function check', () => {
       operation: '+',
     };
     const state = calculate(obj, 'AC');
-    expect(state.total).toBe(0);
+    expect(state.total).toBe(null);
   });
 
   test('number', () => {
