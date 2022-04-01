@@ -23,7 +23,7 @@ const Calculator = () => {
   return (
     <div className="root-calc">
       <h1>
-        Let us do some math
+        Let us do some Maths
         {' '}
         <br />
         {'>>>'}
