@@ -6,6 +6,8 @@ This branch is the first step of the Math Magicians application. In this branch 
 ## Built With
 - React
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# [Live link](https://magic-math-wand.herokuapp.com/)
 ## Getting Started
 
 **step1** cloning the project:
